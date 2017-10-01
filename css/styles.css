@@ -40,3 +40,10 @@ header {
 .featured img{
   max-width: 100%;
 }
+
+.featured-works-title {
+  margin: 15px 0;
+  font-size: 2em;
+  font-weight: 400;
+  color: #7d97ad;
+}

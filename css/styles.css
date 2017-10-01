@@ -16,7 +16,7 @@ header {
   border-bottom: 2px #7d97ad solid;
 }
 
-.profile-picture img {
+.profile-picture {
   width: 100px;
   height: 100px;
 }
@@ -37,7 +37,7 @@ header {
   font-weight: 300;
 }
 
-.featured img{
+.featured {
   max-width: 100%;
 }
 

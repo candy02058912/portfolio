@@ -81,3 +81,26 @@ header {
   content: ' |';
   color: initial;
 }
+
+@media screen and (max-width: 800px) {
+  .featured-work {
+    flex: 0 1 49%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .featured-work {
+    flex: 0 1 95%;
+  }
+
+  .featured-work-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  body {
+    font-size: 12px;
+  }
+}

@@ -11,6 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: 2px #7d97ad solid;
 }
@@ -34,4 +35,8 @@ header {
 .profile-detail {
   margin: 10px 0;
   font-weight: 300;
+}
+
+.featured img{
+  max-width: 100%;
 }

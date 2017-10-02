@@ -60,10 +60,40 @@ header {
   text-align: center;
 }
 
-.featured-work-image {
+.featured-work-image-wrapper {
+  position: relative;
   width: 100%;
   height: 200px;
+}
+
+.featured-work-image {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+}
+
+.featured-work-image-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,.8);
+}
+
+.featured-work-image-wrapper:hover .featured-work-image-overlay {
+  opacity: 1;
+}
+
+.featured-work-detail {
+  color: #fff;
 }
 
 .featured-work-title {
@@ -93,7 +123,7 @@ header {
     flex: 0 1 95%;
   }
 
-  .featured-work-image {
+  .featured-work-image-wrapper {
     width: 100%;
     height: auto;
   }

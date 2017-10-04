@@ -120,7 +120,7 @@ header {
 
 @media screen and (max-width: 600px) {
   .featured-work {
-    flex: 0 1 95%;
+    flex: 0 1 100%;
   }
 
   .featured-work-image-wrapper {

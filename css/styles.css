@@ -112,6 +112,10 @@ header {
   color: initial;
 }
 
+footer {
+  text-align: center;
+}
+
 @media screen and (max-width: 800px) {
   .featured-work {
     flex: 0 1 49%;
